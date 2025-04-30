@@ -5,7 +5,7 @@
 - Parses HL7 ADT messages into structured JSON using OpenAI LLM and map it to custom pydantic schema
 - Parses HL7 ADT messages into structured JSON using [HL7Apy](https://crs4.github.io/hl7apy/)
 
-## Instalation
+## Installation
 
 Install all dependencies for the project
 
