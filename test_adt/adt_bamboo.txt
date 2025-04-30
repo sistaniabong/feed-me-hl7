@@ -1,0 +1,62 @@
+MSH|^~\&|PATIENTPING_ADT|1234^Mercy
+Standard^HOS|RECEIVING_APP|1234^Sample
+Health|20190306082037||ADT^A03|6595e8ba-3737-46d1-b3b9-
+e3ef12fedf8d|P|2.5
+EVN|A03|20190306044800||CREATE_DISCHARGE
+PID|1|21234234^^^PP^PP|U12341234001^^^sam^sam||Granger^Hermione^||19790
+919|5|||4 East St^^Boston^MA^02491|||||||56916637|4043
+PD1||||1912801234^Palm^Michael^^^^
+PV1|1|E|||||1407898737^Palm^Michael^^^^|||||||Physician Office|||||5691
+6637|||||||||||||||||Home||||||||20190306015300|20190306044800|||||3138
+1441
+IN1|1|||Generic BCBS
+Plan|||||||||||Commercial|||||||||||||||||||||0084361234
+ZMD|a9f25eb6-c844-4233-86f4-b33bb371da17
+ZPP|PROGRAMS
+ZPP|--------
+ZPP|1. Horton Health
+ZPP|2. We Care
+ZPP|
+ZPP|
+ZPP|PRACTICES
+ZPP|--------
+ZPP|1. Sample Practice
+ZPP|
+ZPP|
+ZPP|CARE COORDINATORS
+ZPP|-----------------
+ZPP|Name : Transitions of Care Team
+ZPP|Phone : 855-555-8555
+ZPP|Email :
+ZPP|Fax : 866-333-1010
+ZPP|-------------------------------------
+ZPP|Name : Utilization Management
+ZPP|Phone : 877-777-7878
+ZPP|Email :
+ZPP|Fax :
+ZPP|-------------------------------------
+ZPP|
+ZPP|
+ZPP|ADMIT CARE INSTRUCTIONS
+ZPP|-----------------------
+ZPP|1. All other health plans call (877) 222-4567 and ask to speak
+withurge the Extensivist on call.
+ZPP|2. Fidelis MMP call (877) 888-6161 for an authorization.
+ZPP|
+ZPP|
+ZPP|DISCHARGE CARE INSTRUCTIONS
+ZPP|---------------------------
+ZPP|1. Call (855) 990-9090 to reach or get a message to a Transition
+Coordinator.
+ZPP|
+ZPP|
+ZPP|OTHER CARE PROVIDERS
+ZPP|--------------------
+ZPP|Name : Henry Rollins
+ZPP|Phone :
+ZPP|Email :
+ZPP|Fax :
+ZPP|Cohort Name : Center Line
+ZPP|-------------------------------------
+ZPP|
+ZPP|
