@@ -25,7 +25,7 @@ Parse HL7 ADT using OpenAI LLM
 
 `uv run main.py --message "<insert ADT message here>"`
 
-## Notes
+## A few thoughts...
 
 ### 1. **HL7Apy**
 
@@ -35,7 +35,7 @@ Parse HL7 ADT using OpenAI LLM
 - **Deterministic**: The parsing process is deterministic, so the output is predictable and consistent.
 
 #### Cons:
-- **Limited Flexibility**: HL7Apy is limited to the HL7 standard and cannot handle custom or non-standard variations of HL7 messages. This is particularly disadvantageous when receiving feeds from different HEI (Health Information Exchange) vendors (Bamboo vs PCC)
+- **Limited Flexibility**: HL7Apy is limited to the HL7 standard and cannot handle custom or non-standard variations of HL7 messages. This is particularly disadvantageous when receiving feeds from different HEI (Health Information Exchange) vendors (Bamboo vs PCC). In this case, HL7Apy cannot parse the example ADT feed from Bamboo.
 - **Version Support**: Some HL7 versions or segments may not be supported, requiring manual intervention.
 - **No Contextual Understanding**: It lacks the ability to infer or interpret ambiguous data beyond the HL7 specification
 - **Inefficient Structure**: Key and value pair is redundant and inefficient. For example: 
@@ -115,8 +115,7 @@ HL7Apy is ideal for scenarios where strict adherence to the HL7 standard is requ
                 "version_id":"2.5"
             }
         }
-
-- **Schema Mapping**: The LLM can map HL7 data to custom schemas, such as FHIR.
+- **Schema Mapping**: The LLM can map HL7 data to custom schemas, such as FHIR. See example [here](/results/llm_hl7_fhir.json).
 - **Extensibility**: Easily adaptable to new requirements by modifying the prompt or schema.
 
 #### Cons:
@@ -126,5 +125,14 @@ HL7Apy is ideal for scenarios where strict adherence to the HL7 standard is requ
 
 #### Use Case:
 The LLM is ideal for scenarios where flexibility, contextual understanding, or mapping to custom schemas is required, especially when dealing with non-standard HL7 messages.
+
 ---
+
+### OpenQ for OpenAI 🙊
+OpenAI LLM seems to be doing a good job in interpreting HL7, but still a bit too wild... So what can we do to keep the result stable enough for production use?
+
+- We could set the LLM temp to 0.0 to remove randomness and be less wild
+- We could define a clear, unambiguous prompt, and use the same wording every time when it comes to instructions on edge cases etc
+- We could enforce the output structure via Pydantic (so at least it would be flagged when it goes wild)
+
 
