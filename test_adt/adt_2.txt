@@ -1,0 +1,7 @@
+MSH|^~\&|Collective|va_sentara_virginia_beach_general_hosp|Waymark|Waymark|20241214175612||ADT^A08|20241214175612|P|2.5
+EVN|A08|20241214175612
+PID|1||WAY32158^^^^WAYMARK~63411712^^^^MRN||GRIFFIN^RONNIE^L||19870816|M|||2   SEATON CIRCLE^^CHESAPEAKE^VA^23320^^^^||7577762028|||||||||||||||||
+PD1|1||||||||||||
+PV1|1|^|Sentara - Virginia Beach General Hospital|||||||^||||||||||||||||||||||||||^|||||||||
+PV2|1||
+ZCE|1|72991364-aef7-45f3-bbae-383881216af5|

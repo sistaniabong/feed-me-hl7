@@ -1,0 +1,98 @@
+[
+   {
+      "msh":{
+         "fieldSeparator":"|",
+         "encodingCharacters":"^~\\&",
+         "sendingApplication":"Collective",
+         "sendingFacility":"ma_tufts_medical",
+         "receivingApplication":"Cerner",
+         "receivingFacility":"Tufts",
+         "datetimeOfMessage":"20210311015338",
+         "messageType":"ADT^A01",
+         "messageControlId":"20210311015338",
+         "processingId":"P",
+         "versionId":"2.5"
+      },
+      "evn":{
+         "eventTypeCode":"A01",
+         "recordedDateTime":"20210311015338"
+      },
+      "pid":{
+         "setId":"1",
+         "patientId":{
+            "id":"WAY00001",
+            "assigningAuthority":"WAYMARK"
+         },
+         "patientName":{
+            "lastName":"DOE",
+            "firstName":"JOHN"
+         },
+         "dateOfBirth":"19800101",
+         "gender":"M",
+         "address":{
+            "street":"123 4th ST",
+            "city":"MILLVALLEY",
+            "state":"CA",
+            "postalCode":"94941"
+         },
+         "phoneNumber":"5555555555",
+         "ssn":"987654321"
+      },
+      "pd1":{
+         "setId":"1",
+         "patientPrimaryFacility":"",
+         "patientLocation":"",
+         "patientClass":"^^^^^^^^"
+      },
+      "pv1":{
+         "setId":"1",
+         "patientClass":"I^Inpatient",
+         "assignedPatientLocation":"Tufts Medical Center",
+         "attendingDoctor":{
+            "id":"Provider",
+            "lastName":"Test"
+         },
+         "consultingDoctor":{
+            "id":"285",
+            "specialty":"General Medicine"
+         },
+         "hospitalService":"General Medicine",
+         "admissionType":"123456789",
+         "dischargeDisposition":"||||||||"
+      },
+      "pv2":{
+         "setId":"1",
+         "patientDiagnosis":"Headache"
+      },
+      "dg1":[
+         {
+            "setId":"1",
+            "diagnosisCode":"I10",
+            "diagnosisDescription":"Unspecified hydronephrosis",
+            "diagnosisType":"I10",
+            "diagnosisStatus":"W"
+         },
+         {
+            "setId":"2",
+            "diagnosisCode":"I10",
+            "diagnosisDescription":"Headache, unspecified",
+            "diagnosisType":"I10",
+            "diagnosisStatus":"F"
+         }
+      ],
+      "in1":[
+         {
+            "setId":"1",
+            "insurerId":"",
+            "insurerName":"BLUE SHIELD PPO",
+            "insurancePlanId":"BC123456789"
+         },
+         {
+            "setId":"1",
+            "insurerId":"",
+            "insurerName":"BLUE SHIELD PPO",
+            "insurancePlanId":"BC123456789"
+         }
+      ]
+   }
+]

@@ -1,0 +1,12 @@
+MSH|^~\&|Collective|wa_se|Waymark|Waymark|20240914203344||ADT^A08|20240914203344|P|2.5
+EVN|A08|20240914203344
+PID|1||WAY12345^^^^WAYMARK~111111^^^^MRN||LAST^FIRST^M||19970101|F|||HOMELESS^^EVERETT^WA^12345^^^^||1234567890|||||||||||||||||
+PD1|1||||||||||||
+PV1|1|E^Emergency|Providence Swedish Edmonds||||1285209593^PATEL^JANKI^LOMESH^^^^^EPIC^^^^PNPI|||0^Emergency|||||||||10650160951|||||||||||||||||^||||||||20240914173500|
+PV2|1||
+ZCE|1|e6ab8915-ab17-4de6-844a-a98767d8c2bf|
+DG1|1||^Pelvic Pain^|Pelvic Pain||
+DG1|2||^Headache (Adult - New Onset Or New Symptoms)^|Headache (Adult - New Onset Or New Symptoms)||
+DG1|3||^head paind si^|head paind si||
+IN1|1|||TRICARE||||||||||||||||||||||||||||||||01359760101||||||||||
+IN1|2|||UNITED HEALTHCARE MEDICAID HMO||||||||||||||||||||||||||||||||127202102||||||||||

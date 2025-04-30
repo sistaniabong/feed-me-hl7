@@ -1,0 +1,117 @@
+[
+   {
+      "msh":{
+         "fieldSeparator":"|",
+         "encodingCharacters":"^~\\&",
+         "sendingApplication":"Collective",
+         "sendingFacility":"wa_se",
+         "receivingApplication":"Waymark",
+         "receivingFacility":"Waymark",
+         "datetimeOfMessage":"20240914203344",
+         "messageType":"ADT^A08",
+         "messageControlId":"20240914203344",
+         "processingId":"P",
+         "versionId":"2.5"
+      },
+      "evn":{
+         "eventTypeCode":"A08",
+         "recordedDateTime":"20240914203344"
+      },
+      "pid":{
+         "setId":"1",
+         "patientId":{
+            "id":"WAY12345",
+            "assigningAuthority":"WAYMARK"
+         },
+         "mrn":{
+            "id":"111111",
+            "assigningAuthority":"MRN"
+         },
+         "patientName":{
+            "family":"LAST",
+            "given":"FIRST",
+            "middle":"M",
+            "suffix":"None"
+         },
+         "dateOfBirth":"19970101",
+         "sex":"F",
+         "address":{
+            "street":"HOMELESS",
+            "city":"EVERETT",
+            "state":"WA",
+            "zip":"12345",
+            "country":"None"
+         },
+         "phoneNumber":"1234567890",
+         "otherIdentifiers":[
+            
+         ]
+      },
+      "pd1":{
+         "pd1Segment":{
+            "field1":"1"
+         }
+      },
+      "pv1":{
+         "setId":"1",
+         "patientClass":"E",
+         "assignedPatientLocation":"Emergency",
+         "preAdmitNumber":"Providence Swedish Edmonds",
+         "attendingDoctor":{
+            "id":"1285209593",
+            "name":"PATEL^JANKI^LOMESH",
+            "role":"EPIC",
+            "identifierType":"PNPI"
+         },
+         "referralDoctor":{
+            "id":"0",
+            "name":"Emergency"
+         },
+         "visitNumber":"10650160951",
+         "otherIdentifiers":[
+            
+         ]
+      },
+      "pv2":{
+         "pv2Segment":{
+            "field1":"1"
+         }
+      },
+      "dg1":[
+         {
+            "setId":"1",
+            "diagnosisCode":"^Pelvic Pain^",
+            "diagnosisDescription":"Pelvic Pain",
+            "diagnosisType":"None"
+         },
+         {
+            "setId":"2",
+            "diagnosisCode":"^Headache (Adult - New Onset Or New Symptoms)^",
+            "diagnosisDescription":"Headache (Adult - New Onset Or New Symptoms)",
+            "diagnosisType":"None"
+         },
+         {
+            "setId":"3",
+            "diagnosisCode":"^head paind si^",
+            "diagnosisDescription":"head paind si",
+            "diagnosisType":"None"
+         }
+      ],
+      "in1":[
+         {
+            "setId":"1",
+            "insurancePlanId":"TRICARE",
+            "insuranceCompany":"None",
+            "insuranceType":"None",
+            "policyNumber":"01359760101"
+         },
+         {
+            "setId":"2",
+            "insurancePlanId":"UNITED HEALTHCARE MEDICAID HMO",
+            "insuranceCompany":"None",
+            "insuranceType":"None",
+            "policyNumber":"127202102"
+         }
+      ]
+   }
+]

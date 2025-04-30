@@ -1,0 +1,237 @@
+[
+   {
+      "msh":{
+         "fieldSeparator":"|",
+         "encodingCharacters":"^~\\&",
+         "sendingApplication":"Collective",
+         "sendingFacility":"wa_se",
+         "receivingApplication":"Waymark",
+         "receivingFacility":"Waymark",
+         "dateTimeStamp":"20240914203344",
+         "security":"",
+         "messageType":{
+            "triggerEvent":"ADT",
+            "messageCode":"A08"
+         },
+         "messageControlId":"20240914203344",
+         "processingId":"P",
+         "versionId":"2.5"
+      },
+      "evn":{
+         "eventTypeCode":"A08",
+         "recordedDateTime":"20240914203344"
+      },
+      "pid":{
+         "setId":"1",
+         "patientId":[
+            {
+               "id":"WAY12345",
+               "identifierType":"WAYMARK"
+            },
+            {
+               "id":"11111",
+               "identifierType":"MRN"
+            }
+         ],
+         "patientName":{
+            "family":"LAST",
+            "given":"FIRST",
+            "middle":"M"
+         },
+         "dateOfBirth":"19970101",
+         "administrativeSex":"F",
+         "patientAddress":[
+            {
+               "addressType":"HOMELESS",
+               "city":"EVERETT",
+               "state":"WA",
+               "zip":"12345"
+            }
+         ],
+         "phoneNumberHome":[
+            "1234567890"
+         ],
+         "phoneNumberBusiness":[
+            
+         ],
+         "emailAddress":[
+            
+         ],
+         "citizenship":[
+            
+         ],
+         "employmentStatus":[
+            
+         ],
+         "maritalStatus":[
+            
+         ],
+         "religion":[
+            
+         ]
+      },
+      "pd1":{
+         "livingDependency":"1",
+         "companyName":[
+            
+         ],
+         "contactPerson":[
+            
+         ],
+         "contactAddress":[
+            
+         ],
+         "jobTitle":[
+            
+         ],
+         "jobCode":[
+            
+         ],
+         "jobCategory":[
+            
+         ],
+         "jobDescription":[
+            
+         ]
+      },
+      "pv1":{
+         "setId":"1",
+         "patientClass":"E",
+         "assignedPatientLocation":"Emergency",
+         "admissionType":"Providence Swedish Edmonds",
+         "attendingDoctor":{
+            "id":"1285209593",
+            "family":"PATEL",
+            "given":"JANKI",
+            "middle":"LOMESH",
+            "identifierType":"EPIC",
+            "assigningAuthority":"PNPI"
+         },
+         "admittingDoctor":[
+            
+         ],
+         "hospitalService":"0",
+         "temporaryLocation":"Emergency",
+         "preadmitNumber":[
+            
+         ],
+         "patientType":[
+            
+         ],
+         "visitNumber":"10650160951",
+         "financialClass":[
+            
+         ],
+         "responsibleParty":[
+            
+         ],
+         "sourceOfReferral":[
+            
+         ],
+         "outcome":[
+            
+         ],
+         "dischargeDisposition":[
+            
+         ],
+         "dischargeLocation":[
+            
+         ],
+         "dietType":[
+            
+         ],
+         "specialNeeds":[
+            
+         ],
+         "status":"20240914173500"
+      },
+      "pv2":{
+         "setId":"1",
+         "priorPendingLocation":[
+            
+         ]
+      },
+      "dg1":[
+         {
+            "setId":"1",
+            "diagnosisCode":"",
+            "diagnosisDescription":{
+               "coding":[
+                  {
+                     "system":"",
+                     "code":"Pelvic Pain",
+                     "display":"Pelvic Pain"
+                  }
+               ]
+            },
+            "diagnosisType":[
+               
+            ]
+         },
+         {
+            "setId":"2",
+            "diagnosisCode":"",
+            "diagnosisDescription":{
+               "coding":[
+                  {
+                     "system":"",
+                     "code":"Headache (Adult - New Onset Or New Symptoms)",
+                     "display":"Headache (Adult - New Onset Or New Symptoms)"
+                  }
+               ]
+            },
+            "diagnosisType":[
+               
+            ]
+         },
+         {
+            "setId":"3",
+            "diagnosisCode":"",
+            "diagnosisDescription":{
+               "coding":[
+                  {
+                     "system":"",
+                     "code":"head paind si",
+                     "display":"head paind si"
+                  }
+               ]
+            },
+            "diagnosisType":[
+               
+            ]
+         }
+      ],
+      "in1":[
+         {
+            "setId":"1",
+            "coverageType":"",
+            "insuranceCompany":"TRICARE",
+            "insurancePlanId":[
+               
+            ],
+            "groupNumber":[
+               
+            ],
+            "policyNumber":"01359760101",
+            "insurerAddress":[
+               
+            ]
+         },
+         {
+            "setId":"2",
+            "coverageType":"",
+            "insuranceCompany":"UNITED HEALTHCARE MEDICAID HMO",
+            "insurancePlanId":[
+               
+            ],
+            "groupNumber":[
+               
+            ],
+            "policyNumber":"127202102",
+            "insurerAddress":[
+               
+            ]
+         }
+      ]
+   }
+]

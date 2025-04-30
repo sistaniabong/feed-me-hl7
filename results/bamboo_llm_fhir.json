@@ -1,0 +1,136 @@
+[
+   {
+      "msh":{
+         "fieldSeparator":"|",
+         "encodingCharacters":"^~\\&",
+         "sendingApplication":{
+            "namespaceId":"PATIENTPING_ADT",
+            "universalId":"1234",
+            "universalIdType":"Mercy Standard"
+         },
+         "sendingFacility":{
+            "namespaceId":"HOS",
+            "universalId":"1234",
+            "universalIdType":"Sample Health"
+         },
+         "datetimeOfMessage":"20190306082037",
+         "messageType":"ADT^A03",
+         "messageControlId":"6595e8ba-3737-46d1-b3b9-e3ef12fedf8d",
+         "processingId":"P",
+         "versionId":"2.5"
+      },
+      "evn":{
+         "eventTypeCode":"A03",
+         "recordedDatetime":"20190306044800",
+         "dateTimePlannedEvent":"",
+         "eventReasonCode":"CREATE_DISCHARGE"
+      },
+      "pid":{
+         "setId":"1",
+         "patientId":"21234234^^^PP^PP",
+         "patientIdentifierList":"U12341234001^^^sam^sam",
+         "alternatePatientId":"",
+         "patientName":{
+            "familyName":"Granger",
+            "givenName":"Hermione",
+            "middleName":"",
+            "suffix":""
+         },
+         "dateOfBirth":"19790919",
+         "administrativeSex":"5",
+         "patientAlias":"",
+         "ethnicGroup":"",
+         "language":"",
+         "maritalStatus":"4 East St^^Boston^MA^02491",
+         "religion":"",
+         "patientAccountNumber":"56916637",
+         "socialSecurityNumber":"4043"
+      },
+      "pd1":{
+         "patientPrimaryCareProvider":"1912801234^Palm^Michael^^^^"
+      },
+      "pv1":{
+         "setId":"1",
+         "patientClass":"E",
+         "assignedPatientLocation":"",
+         "provider":"1407898737^Palm^Michael^^^^",
+         "hospitalService":"",
+         "admitDatetime":"20190306015300",
+         "dischargeDatetime":"20190306044800",
+         "otherHealthcareProvider":"31381441"
+      },
+      "pv2":{
+         
+      },
+      "dg1":{
+         
+      },
+      "in1":{
+         "setId":"1",
+         "insurancePlanId":"",
+         "insuranceCompany":"Generic BCBS Plan",
+         "insuranceCompanyAddress":"",
+         "insuranceCompanyPhoneNumber":"",
+         "policyNumber":"Commercial",
+         "coverage":""
+      },
+      "zmd":"a9f25eb6-c844-4233-86f4-b33bb371da17",
+      "zpp":[
+         {
+            "sectionTitle":"PROGRAMS",
+            "items":[
+               "1. Horton Health",
+               "2. We Care"
+            ]
+         },
+         {
+            "sectionTitle":"PRACTICES",
+            "items":[
+               "1. Sample Practice"
+            ]
+         },
+         {
+            "sectionTitle":"CARE COORDINATORS",
+            "contacts":[
+               {
+                  "name":"Transitions of Care Team",
+                  "phone":"855-555-8555",
+                  "email":"",
+                  "fax":"866-333-1010"
+               },
+               {
+                  "name":"Utilization Management",
+                  "phone":"877-777-7878",
+                  "email":"",
+                  "fax":""
+               }
+            ]
+         },
+         {
+            "sectionTitle":"ADMIT CARE INSTRUCTIONS",
+            "instructions":[
+               "1. All other health plans call (877) 222-4567 and ask to speak with urge the Extensivist on call.",
+               "2. Fidelis MMP call (877) 888-6161 for an authorization."
+            ]
+         },
+         {
+            "sectionTitle":"DISCHARGE CARE INSTRUCTIONS",
+            "instructions":[
+               "1. Call (855) 990-9090 to reach or get a message to a Transition Coordinator."
+            ]
+         },
+         {
+            "sectionTitle":"OTHER CARE PROVIDERS",
+            "providers":[
+               {
+                  "name":"Henry Rollins",
+                  "phone":"",
+                  "email":"",
+                  "fax":"",
+                  "cohortName":"Center Line"
+               }
+            ]
+         }
+      ]
+   }
+]
